@@ -31,7 +31,7 @@ git push origin v1.0.0
 三处的 `Minglink` 改成实际账号，再重新提交并移动标签：
 
 ```bash
-git tag -d v1.0.0
+git tag -d v1.0.0   # 仓库当前标签指向首版提交
 git commit -am "chore: correct repository urls"
 git tag v1.0.0
 git push origin main --tags --force
