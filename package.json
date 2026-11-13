@@ -1,0 +1,43 @@
+{
+  "name": "dsh-default-full-permission",
+  "version": "1.0.0",
+  "description": "Make every new AND existing session resolve to the danger-full-access permission preset (full file access, no approval prompts) by appending the session-level permission override that outranks the deployment default.",
+  "license": "MIT",
+  "type": "module",
+  "author": "Minglink",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "permission",
+    "danger-full-access"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minglink/dsh-default-full-permission.git"
+  },
+  "homepage": "https://github.com/Minglink/dsh-default-full-permission#readme",
+  "bugs": {
+    "url": "https://github.com/Minglink/dsh-default-full-permission/issues"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/",
+    "scripts/",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
