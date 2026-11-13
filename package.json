@@ -30,7 +30,8 @@
     "lib/",
     "scripts/",
     "cordis.patch.yml",
-    "README.md"
+    "README.md",
+    "PUBLISH.md"
   ],
   "engines": {
     "node": ">=20"
