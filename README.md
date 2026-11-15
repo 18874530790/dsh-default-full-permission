@@ -132,7 +132,7 @@ Constants at the top of `lib/index.js` and both scripts.
 ### From GitHub
 
 ```bash
-plugin_manager install_bundle target="github:Minglink/dsh-default-full-permission#v1.0.0"
+plugin_manager install_bundle target="github:18874530790/dsh-default-full-permission#v1.0.1"
 ```
 
 ### From a local checkout
